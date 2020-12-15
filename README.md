@@ -74,19 +74,19 @@ export default store;
 
 ### Apis params
 
-| Name           | Params      | Response             | Description          |
-| -------------- | ----------- | -------------------- | -------------------- | -------------------- |
-| `getList`      | `any`       | `any[]`              | Get list items       |
-| `count`        | `any`       | `{count: number}`    | Count items          |
-| `getOne`       | `string     | number`              | `any`                | Get item data by id  |
-| `create`       | `any`       | `any`                | Create new item      |
-| `update`       | `id: string | number`, `data: any` | `any`                | Update item by id    |
-| `remove`       | `string     | number`              | `any`                | Remove item to trash |
-| `trashGetList` | `any`       | `any[]`              | Get list trash items |
-| `trashCount`   | `any`       | `{count: number}`    | Count trash items    |
-| `trashRestore` | `string     | number`              | `any`                | Restore item by id   |
-| `trashPurge`   | `string     | number`              | `any`                | Purge item by id     |
-| `trashEmpty`   | `string     | number`              | `any`                | Empty trash data     |
+| Name           | Params                                    | Response          | Description          |
+| -------------- | ----------------------------------------- | ----------------- | -------------------- |
+| `getList`      | `any`                                     | `any[]`           | Get list items       |
+| `count`        | `any`                                     | `{count: number}` | Count items          |
+| `getOne`       | `string` &#124; `number`                  | `any`             | Get item data by id  |
+| `create`       | `any`                                     | `any`             | Create new item      |
+| `update`       | id: `string` &#124; `number`, data: `any` | `any`             | Update item by id    |
+| `remove`       | `string` &#124; `number`                  | `any`             | Remove item to trash |
+| `trashGetList` | `any`                                     | `any[]`           | Get list trash items |
+| `trashCount`   | `any`                                     | `{count: number}` | Count trash items    |
+| `trashRestore` | `string` &#124; `number`                  | `any`             | Restore item by id   |
+| `trashPurge`   | `string` &#124; `number`                  | `any`             | Purge item by id     |
+| `trashEmpty`   | `string` &#124;` number`                  | `any`             | Empty trash data     |
 
 ## Modules
 
