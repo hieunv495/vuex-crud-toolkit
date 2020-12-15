@@ -1,0 +1,1 @@
+# Vuex CRUD store builder

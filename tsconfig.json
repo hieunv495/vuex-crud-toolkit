@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "declarationDir": "lib",
+    "target": "es5",
+    "module": "es2015",
+    "rootDir": "src",
+    "baseUrl": "./",
+    "sourceMap": true,
+    "declaration": true,
+    "importHelpers": true,
+    "strict": true,
+    "experimentalDecorators": true,
+    "jsx": "preserve",
+    "moduleResolution": "node",
+
+    "paths": {
+      "tslib": ["node_modules/tslib/tslib.d.ts"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.vue"]
+}
